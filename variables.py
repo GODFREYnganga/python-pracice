@@ -1,10 +1,6 @@
-course  = 'python for begginers'
-print(course[0])
-print(course[1])
-print(course[-1])
-print(course[-2])
-print(course[0:])
-print(course[1:])
-print(course[0:3])
-print(course[:])
-print(course[1:-1])
+first = 'john'
+last = 'smith'
+message = first + '[' + last + '] is a coder'
+msg = f'{first} [{last}] is a coder'
+print(message)
+print(msg)
