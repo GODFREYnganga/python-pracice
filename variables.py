@@ -1,3 +1,14 @@
-weight = input(("weight(lb): "))
-weight_kg = int(weight) * 0.45
-print("weight(kg): ", weight_kg)
+course = "python's course for beginners"
+course2 ='python course for "Beginners'
+course3 ='''
+Hi John,
+
+Here is your first email
+
+
+Thank You,
+The support team.
+'''
+print(course)
+print(course2)
+print(course3)
