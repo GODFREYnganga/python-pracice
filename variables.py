@@ -1,14 +1,10 @@
-course = "python's course for beginners"
-course2 ='python course for "Beginners'
-course3 ='''
-Hi John,
-
-Here is your first email
-
-
-Thank You,
-The support team.
-'''
-print(course)
-print(course2)
-print(course3)
+course  = 'python for begginers'
+print(course[0])
+print(course[1])
+print(course[-1])
+print(course[-2])
+print(course[0:])
+print(course[1:])
+print(course[0:3])
+print(course[:])
+print(course[1:-1])
