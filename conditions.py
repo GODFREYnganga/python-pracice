@@ -1,12 +1,9 @@
-is_hot = True
-is_cold = False
+House_price  = 1000000
+buyer_good_creditor = False
 
-if is_hot:
-    print("It's a hot day")
-    print("drink plenty of water")
-elif is_cold:
-    print("It's a cold day")
-    print("wear warm clothes")
+if buyer_good_creditor:
+    print("You need to pay a downpayment of 10%")
+    print("downpayment: ", House_price * 0.1)
 else:
-    print("It's a lovely day")
-print("Enjoy your day")      
+    print("you need to pay a downpayment of 20%")
+    print("Downpayment ", House_price * 0.2)
